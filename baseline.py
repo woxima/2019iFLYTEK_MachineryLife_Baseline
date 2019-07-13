@@ -4,7 +4,6 @@ Created on Sat Apr 20 22:17:03 2019
 
 @author: 大风君
 
-@榜样：鱼佬
 """
 import os
 import time
