@@ -4,4 +4,4 @@
 http://challenge.xfyun.cn/2019/gamedetail?blockId=981
 
 知乎：
-https://zhuanlan.zhihu.com/p/71631721/edit
+https://zhuanlan.zhihu.com/p/71631721
