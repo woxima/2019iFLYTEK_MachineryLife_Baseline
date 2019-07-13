@@ -51,10 +51,17 @@ def process_sample_single(e,train_p):
          '设备':data['设备类型'][0],
          'life':lifemax-data['部件工作时长'].max()
          }
-    for i in ['部件工作时长', '累积量参数1', '累积量参数2',
-              '转速信号1','转速信号2','压力信号1','压力信号2',
-              '温度信号','流量信号','电流信号']:
-        c=stat(data[i],c,i)
+    for i in ['部件工作时长', 
+              '累积量参数1', 
+              '累积量参数2',
+              '转速信号1',
+              '转速信号2',
+              '压力信号1',
+              '压力信号2',
+              '温度信号',
+              '流量信号',
+              '电流信号']:
+            c=stat(data[i],c,i)
     this_tv_features = pd.DataFrame(c, index=[0])  
     
     return this_tv_features
